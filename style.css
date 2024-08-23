@@ -416,6 +416,16 @@ span {
     display: block;
    }
 
+   .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 1rem 3%;
+    background: var(--bg-color);
+    border-top: .1rem solid rgba(, green, blue, alpha);
+   }
+
    .home {
     flex-direction: column;
   }
